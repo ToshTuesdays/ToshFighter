@@ -152,7 +152,7 @@ public class GUI extends JFrame {
 		viewSource = new JButton("View Source");
 		viewSource.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-				String url = "www.google.com";
+				String url = "https://github.com/ToshTuesdays/ToshFighter";
 				URI uri = null;
 
 				Desktop dt = Desktop.getDesktop();
